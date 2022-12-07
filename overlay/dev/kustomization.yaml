@@ -3,5 +3,7 @@ kind: Kustomization
 images:
 - name: 812675885124.dkr.ecr.ap-northeast-1.amazonaws.com/myrepo
   newTag: be_0.0.0
+- name: 812675885124.dkr.ecr.ap-northeast-1.amazonaws.com/myrepo1
+  newTag: be_0.0.2
 resources:
 - ../../base
